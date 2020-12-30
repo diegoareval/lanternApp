@@ -37,7 +37,7 @@ const onPress = useCallback(async () => {
   const enableImage = require('./icons/linterna.jpg');
 
   return (
-    <Layout title="Linterna">
+    <Layout title="Linter">
       <View style={styles.container}>
         <Button
           image={isTurnOn ? enableImage : disableImage}
